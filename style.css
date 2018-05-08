@@ -6,11 +6,470 @@
     color: #6c6b6b
   }
 
-/* へっだー */
-/* めいんびじゅある */
-/* ぽーとふぉりお */
-/* ふぃーちゃー */
-/* ぷろふぃーる */
-/* こんたくと */
-/* ふったー */
-/* れすぽんしぶ対応 */
+  .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*           へっだー            */
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #EC715F
+}
+.header-box{
+    width: 1024px;
+    margin: 0 auto;
+}
+.nav-icon{
+    height: 70px;
+}
+.nav{
+    float: right;
+}
+.nav-text{
+    font-size: 16px;
+    color: #FAFAFA;
+    margin: 0 30px;
+    padding-top: 27px;
+    float: left;
+    display: inline-block;
+}
+
+
+/*           めいんびじゅある            */
+.main-visual{
+    width: 100%;
+    height: 650px;
+    background-image: url(img/mv.png);
+    background-size: cover;
+    background-position: center;
+}
+.deka-eigo{
+    padding-top: 200px;
+    margin-bottom: 10px;
+}
+.deka-eigo p{
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 64px;
+}
+.chibi-eigo p{
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 20px;
+}
+
+
+/*           ぽーとふぉりお          */
+.portfolio{
+    width: 100%;
+    background-color: #ECEFF1
+}
+.port-waku{
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.port-title{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.red-bou{
+    height: 3px;
+    width: 70px;
+    background-color: #EC715F;
+    margin: 0 auto;
+}
+.port-text{
+    font-size: 16px;
+    color: #000000;
+    margin: 30px 0;  
+    text-align: center;
+}
+.port-image{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin-bottom: 10px;
+}
+.pi-1{
+    background-image: url(img/sketch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pi-2{
+    background-image: url(img/websuku.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+}
+.pi-3{
+    background-image: url(img/write.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pi-4{
+    background-image: url(img/webcamp.png);
+    background-size: cover;
+    background-position: center;   
+}
+.pi-5{
+    background-image: url(img/talk.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+}
+.pi-6{
+    background-image: url(img/webcamp-mother.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*          ふぃーちゃー             */
+.feature{
+    width: 980px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin: 0 auto;
+}
+.feature-title h2{
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.feature-text p{
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 30px 0;
+}
+
+.strength-waku{
+    width: 320px;
+    float: left;
+    text-align: center;
+}
+.strength-waku:nth-child(2){
+    margin: 0 10px;
+}
+.fa{
+    font-size: 60px;
+    color: #000000;
+}
+.strength-waku h2{
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0;
+}
+.strength-waku p{
+    font-size: 16px;
+    color: #000000;
+}
+/*          ぷろふぃーる          */
+.profile{
+    width: 100%;
+    background-color: #ECEFF1;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.profile-ue h2{
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.profile-ue p{
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 30px 0;}
+.profile-waku{
+    width: 1024px;
+    margin: 0 auto;
+}
+.jidori-box{
+    width: 512px;
+    float: left;
+}
+.jidori{
+    margin: 0 auto;
+    background-image: url(img/my-icon.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.name-skill{
+    width: 512px;
+    float: left;
+}
+.name h3{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.name p{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.skill h3{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.skill p{
+    font-size: 16px;
+    color: #000000;
+}
+
+/*          こんたくと           */
+.contact{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.contact-ue h2{
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.contact-ue p{
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 30px 0;
+}
+.address{
+    width: 400px;
+    float: left;
+}
+.mail, .tell{
+    width: 150px;
+    margin: 0 auto;
+}
+.mail h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.mail p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.tell h3{
+    font-size: 20px;
+    margin-block-end: 5px;
+    color: #000000;
+}
+.tell p{
+    font-size: 16px;
+    color: #000000;
+}
+.sns{
+    width: 400px;
+    float: left;
+}
+.sns-moji, .sns-icon{
+    width: 190px;
+    margin: 0 auto;
+}
+.sns-moji h3{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.sns-icon i{
+    font-size: 50px;
+    color: #000000;
+}
+.fa-twitter{
+    margin: 0 20px;
+}
+
+/*          ふったー             */
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #EC715F;
+}
+footer p{
+    font-size: 16px;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 18px 0;
+}
+/*          れすぽんしぶ対応             */
+
+
+@media screen and (max-width:768px){
+    header{
+        width: 90%;
+        height: 50px;
+    }
+    .header-box{
+        width: 90%;
+    }
+    .nav-icon{
+        height: 50px;
+    }
+    .nav{
+        display: none;
+    }
+
+    #hamburger{
+        position: relative;
+        float: right;
+    }
+    .nav-unshown{
+        display: none;
+    }
+    #nav-open{
+        height: 44px;
+        width: 44px;
+        border: #fff solid 1px;
+        display: inline-block;
+        padding-left: 4px;
+        margin: 3px 8px 3px 0;
+    }
+    #nav-open i{
+        font-size: 40px;
+        color: #fff;
+        }
+    #nav-close {
+        display: none;/*はじめは隠しておく*/
+        position: fixed;
+        z-index: 99;
+        top: 0;/*全体に広がるように*/
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0;
+        transition: .3s ease-in-out;
+    }
+    /*中身*/
+    #nav-content {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;/*最前面に*/
+        width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+        max-width: 330px;/*最大幅（調整してください）*/
+        height: 100%;
+        background: #fff;/*背景色*/
+        transition: .3s ease-in-out;/*滑らかに表示*/
+        -webkit-transform: translateX(-105%);
+        transform: translateX(-105%);/*左に隠しておく*/
+    }
+    /*チェックが入ったらもろもろ表示*/
+    #nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;
+    }
+  
+    #nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*中身を表示（右へスライド）*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+    }
+    .main-visual{
+        width: 90%;
+        height: 750px;
+        background-image: url(img/code.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .deka-eigo p{
+        font-size: 40px;
+    }
+    .chibi-eigo p{
+        font-size: 18px;
+    }
+    .portfolio{
+        width: 90%;
+    }
+    .port-waku{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .pi-1, .pi-3, .pi-5{
+        display: none;
+    }
+    .pi-2{
+        margin: 0 0 10px 0;
+    }
+    .feature{
+        width: 320px;
+        margin: 0 auto;
+        padding-bottom: 80px;
+    }
+    .strength-waku{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .profile{
+        width: 90%;
+    }
+    .profile-waku{
+        width: 90%;
+    }
+    .jidori-box{
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+    .name-skill{
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+        margin-top: 20px;
+    }
+    .name{
+        text-align: center;
+    }
+    .name p{
+        margin-bottom: 20px;
+    }
+    .skill{
+        text-align: center;
+    }
+    .contact{
+        width: 90%;
+    }
+    .contact-ue{
+        width: 90%;
+    }
+    .address{
+        width: 90%;
+        float: none;
+    }
+    .mail, .tell, .sns{
+        text-align: center;
+    }
+    .tell p{
+        margin-bottom: 20px;
+    }
+    .sns{
+        width: 90%;
+        float: none;
+    }
+    .fa-twitter{
+        margin: 0 8px;
+    }
+    footer{
+        width: 90%;
+    }
+}
