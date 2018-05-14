@@ -32,9 +32,12 @@ header{
     font-size: 16px;
     color: #FAFAFA;
     margin: 0 30px;
-    padding-top: 27px;
+    line-height: 70px;
     float: left;
     display: inline-block;
+}
+#hamburger{
+    display: none;
 }
 
 
@@ -263,18 +266,21 @@ header{
     margin-bottom: 5px;
     color: #000000;
 }
-.mail p{
+.mail u{
     font-size: 16px;
     margin-bottom: 20px;
+    display: block;
     color: #000000;
 }
 .tell h3{
     font-size: 20px;
-    margin-block-end: 5px;
+    margin-bottom: 5px;
     color: #000000;
 }
-.tell p{
+.tell u{
     font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
     color: #000000;
 }
 .sns{
@@ -308,18 +314,17 @@ footer p{
     font-size: 16px;
     color: #FAFAFA;
     text-align: center;
-    padding: 18px 0;
+    line-height: 60px;
 }
 /*          れすぽんしぶ対応             */
 
 
 @media screen and (max-width:768px){
     header{
-        width: 90%;
         height: 50px;
     }
     .header-box{
-        width: 90%;
+        width: 100%;
     }
     .nav-icon{
         height: 50px;
@@ -327,8 +332,8 @@ footer p{
     .nav{
         display: none;
     }
-
     #hamburger{
+        display: inline-block;
         position: relative;
         float: right;
     }
@@ -379,14 +384,13 @@ footer p{
     display: block;/*カバーを表示*/
     opacity: .5;
     }
-  
     #nav-input:checked ~ #nav-content {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);/*中身を表示（右へスライド）*/
     box-shadow: 6px 0 25px rgba(0,0,0,.15);
     }
     .main-visual{
-        width: 90%;
+        width: 100%;
         height: 750px;
         background-image: url(img/code.png);
         background-size: cover;
@@ -397,9 +401,6 @@ footer p{
     }
     .chibi-eigo p{
         font-size: 18px;
-    }
-    .portfolio{
-        width: 90%;
     }
     .port-waku{
         width: 320px;
@@ -420,14 +421,11 @@ footer p{
         float: none;
         margin-bottom: 10px;
     }
-    .profile{
-        width: 90%;
-    }
     .profile-waku{
         width: 90%;
     }
     .jidori-box{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         float: none;
     }
@@ -445,31 +443,29 @@ footer p{
     }
     .skill{
         text-align: center;
+        word-break: break-all;
     }
     .contact{
-        width: 90%;
+        width: 100%;
     }
     .contact-ue{
         width: 90%;
+        margin: 0 auto;
     }
     .address{
         width: 90%;
+        margin: 0 auto;
         float: none;
     }
     .mail, .tell, .sns{
         text-align: center;
     }
-    .tell p{
-        margin-bottom: 20px;
-    }
     .sns{
         width: 90%;
+        margin: 0 auto;
         float: none;
     }
     .fa-twitter{
         margin: 0 8px;
-    }
-    footer{
-        width: 90%;
     }
 }
