@@ -70,6 +70,9 @@ header{
     width: 100%;
     background-color: #ECEFF1
 }
+.portfolio p{
+    color: #000000
+}
 .port-waku{
     width: 920px;
     margin: 0 auto;
@@ -78,7 +81,6 @@ header{
 }
 .port-title{
     font-size: 32px;
-    color: #000000;
     text-align: center;
     padding-bottom: 8px;
 }
@@ -90,7 +92,6 @@ header{
 }
 .port-text{
     font-size: 16px;
-    color: #000000;
     margin: 30px 0;  
     text-align: center;
 }
@@ -159,7 +160,7 @@ header{
     float: left;
     text-align: center;
 }
-.strength-waku:nth-child(2){
+.yohaku{
     margin: 0 10px;
 }
 .fa{
@@ -409,8 +410,8 @@ footer p{
     .pi-1, .pi-3, .pi-5{
         display: none;
     }
-    .pi-2{
-        margin: 0 0 10px 0;
+    .pi-2, .pi-4, .pi-6{
+        margin: 0 10px 10px 10px;
     }
     .feature{
         width: 320px;
@@ -420,6 +421,9 @@ footer p{
     .strength-waku{
         float: none;
         margin-bottom: 10px;
+    }
+    .yohaku{
+        margin: 0 0 10px 0;
     }
     .profile-waku{
         width: 90%;
